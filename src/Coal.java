@@ -4,7 +4,7 @@ public class Coal extends BattleLoc {
 
 
     public Coal(Player player) {
-        super(player, "maden", new Snake(player), "yok", 5);
+        super(player, "maden", new Snake(), "yok", 5);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class Coal extends BattleLoc {
     public boolean combat(int obsNumber) {
         for (int i = 1; i <= obsNumber; i++) {
             this.getObstacle().setHealth(this.getObstacle().getOrjinalHealth());
-            Snake snake = new Snake(this.getPlayer()); // Her döngüde yeni yılan
+            Snake snake = new Snake(); // Her döngüde yeni yılan
             this.setObstacle(snake);
             playerStats();
             obstacleStats(i);

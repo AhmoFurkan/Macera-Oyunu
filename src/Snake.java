@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Snake extends Obstacle {
 
-    public Snake(Player player) {
+    public Snake() {
         super(4, "Yılan", 0, 12, 0);
 
         this.setDamage(randomDamage());
