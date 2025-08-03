@@ -1,2 +1,3 @@
 # Macera-Oyunu
 Karanlık ve sisli adaya hoş geldiniz !!
+Bu oyunda oyuncu herhangi bir karakter seçerek canavarların olduğu bölgeler de savaşarak tüm canavarları yenmelidir.Bir bölgedeki bütün canavarları yendiğinde ise o bölgeden ödül alır ve Maden bölgesi hariç tüm bölgelerde ödülleri toplayıp maden bölgesindeki tüm yılanları yenerse oyuncu güvenli eve dönerek oyunu kazanmış olur. Canavarları öldürdüğümüzde burada para kazanarak Toolstore sınıfından silah veya zırh satın alabiliriz.Ama oynuda ölmememiz için canavara karşı kesin mağlup olacaksak eğer savaşmak yerine kaçabiliriz, güvenli bölgeye giderek canımızı yenileyebiliriz. 
