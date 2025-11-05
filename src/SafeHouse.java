@@ -17,7 +17,7 @@ public class SafeHouse extends NormalLoc {
     }
 
     public void controlAward() {
-        if (this.getPlayer().isHasFood() && this.getPlayer().isHasWater() && this.getPlayer().isHasFirewood() && this.getPlayer().isA()) {
+        if (this.getPlayer().isHasFood() && this.getPlayer().isHasWater() && this.getPlayer().isHasFirewood() ) {
             System.out.println("Tebrikler oyunu kazandınız !!");
             gameActive =false;
         }
